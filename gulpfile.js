@@ -20,7 +20,7 @@ gulp.task('serve', function () {
     }
   });
   // 감시
-  gulp.watch(cfg.path + '*', ['watch']);
+  gulp.watch(cfg.path + '**', ['watch']);
 });
 
 gulp.task('watch', ['build'], function () {

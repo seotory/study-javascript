@@ -12,9 +12,10 @@ gulp.task('build', function () {
     .pipe(gulp.dest(cfg.dist)); 
 });
 
-gulp.task('serve', function () {
+gulp.task('serve', ['build'], function () {
   // 서버 실행
   browserSync.init({
+    browser: "google chrome",
     server: {
       baseDir: cfg.path
     }

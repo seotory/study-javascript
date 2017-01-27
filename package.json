@@ -1,0 +1,26 @@
+{
+  "name": "study-javascript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seotory/study-javascript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seotory/study-javascript/issues"
+  },
+  "homepage": "https://github.com/seotory/study-javascript#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.6",
+    "gulp": "^3.9.1",
+    "gulp-live-server": "0.0.30",
+    "gulp-livereload": "^3.8.1"
+  },
+  "dependencies": {},
+  "description": ""
+}

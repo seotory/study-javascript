@@ -8,7 +8,7 @@ let cfg = {
 
 gulp.task('build', function () {
   return gulp
-    .src(cfg.path+'*')
+    .src(cfg.path+'**')
     .pipe(gulp.dest(cfg.dist)); 
 });
 
